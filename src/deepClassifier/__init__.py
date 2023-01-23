@@ -2,6 +2,9 @@ import os
 import sys
 import logging
 
+
+sys.path.append(r'C:\Users\nitis\OneDrive\Desktop\CNN\src\deepClassifier')
+
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s] : %(message)s"
 log_dir = "logs"
 log_filepath = os.path.join(log_dir, "running_logs.log")
@@ -16,4 +19,6 @@ logging.basicConfig(
     ])
 
 logger = logging.getLogger("deepClassifierLogger")
+
+
 

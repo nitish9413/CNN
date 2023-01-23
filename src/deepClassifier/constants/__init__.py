@@ -1,4 +1,4 @@
-from pathlib import Path
+import sys
 
-CONFIG_FILE_PATH = Path("configs/config.yaml")
-PARAMS_FILE_PATH = Path("params.yaml")
+CONFIG_FILE_PATH = sys.Path("configs/config.yaml")
+PARAMS_FILE_PATH = sys.Path("params.yaml")
